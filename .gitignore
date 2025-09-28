@@ -1,0 +1,49 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+*.log.*
+
+# FastAPI / Uvicorn
+*.db
+*.sqlite3
+
+# MongoDB local files (if any)
+dump/
+*.bson
+*.json
+
+# Pydantic / schema generated files
+*.pyi
+
+# Dependency directories
+pip-wheel-metadata/
+__pypackages__/
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+# Env files
+.env
+.env.*
